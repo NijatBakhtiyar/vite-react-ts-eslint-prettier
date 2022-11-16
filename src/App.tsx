@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
         <p className="header">
           🚀 Vite + React + Typescript 🤘 & <br />
-          Eslint 🔥+ Prettier
+          Eslint 🔥+ Prettir
         </p>
 
         <div className="body">
