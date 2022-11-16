@@ -49,7 +49,7 @@
         "usePrettierrc": true
       }
     ],
-    "quotes": ["error", "double"]
+    "quotes": ["error", "single"]
   },
   "settings": {
     "import/resolver": {
