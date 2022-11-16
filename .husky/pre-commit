@@ -3,4 +3,4 @@
 
 # npm run lint
 
-npm run lint && yarn lint-staged --concurrent false
+yarn lint-staged --concurrent false
