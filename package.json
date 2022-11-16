@@ -8,7 +8,8 @@
     "lint": "eslint ./src --ext .jsx,.js,.ts,.tsx",
     "lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx --quiet --fix --ignore-path ./.gitignore",
     "lint:format": "prettier  --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\" ",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "prepare": "husky install"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -30,7 +31,8 @@
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "pre-commit": "^1.2.2",
     "prettier": "^2.5.1",
-    "vite": "^2.9.12"
+    "vite": "^2.9.12",
+    "husky": "^8.0.0"
   },
   "pre-commit": "lint",
   "license": "MIT"
