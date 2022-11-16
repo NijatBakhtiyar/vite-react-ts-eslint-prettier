@@ -32,8 +32,6 @@
       }
     ],
     "react/react-in-jsx-scope": "off",
-    "simple-import-sort/exports": "error",
-    "simple-import-sort/imports": "error",
     "jsx-a11y/anchor-is-valid": [
       "error",
       {
